@@ -27,20 +27,20 @@ const sePayTransactionSchema = new mongoose.Schema(
   {
     sepayId: {
       type: Number,
-      required: true,
+      
       index: true,  // ✅ Tăng tốc độ query
     },
     gateway: {
       type: String,
-      required: true,
+      
     },
     transactionDate: {
       type: Date,
-      required: true,
+      
     },
     accountNumber: {
       type: String,
-      required: true,
+      
     },
     subAccount: {
       type: String,
@@ -50,7 +50,7 @@ const sePayTransactionSchema = new mongoose.Schema(
     },
     content: {
       type: String,
-      required: true,
+      
       index: true, // ✅ Index để tìm kiếm theo nội dung (mã đơn hàng)
     },
     transferType: {
@@ -61,7 +61,7 @@ const sePayTransactionSchema = new mongoose.Schema(
     },
     transferAmount: {
       type: Number,
-      required: true,
+      
     },
     referenceCode: {
       type: String,
