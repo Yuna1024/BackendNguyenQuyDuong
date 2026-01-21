@@ -72,7 +72,7 @@ const createOrder1 = async (req, res) => {
         const sendOrderConfirmationEmail1 = async (toEmail) => {
             // Tạo nội dung email với bảng sản phẩm
             const mailOptions = {
-                from: 'Khắc Tú',
+                from: 'Quý Dương',
                 to: toEmail,
                 subject: 'Xác nhận đơn hàng của bạn.',
                 html: `
@@ -109,7 +109,7 @@ const createOrder1 = async (req, res) => {
                             <p><strong>Địa chỉ nhận hàng:</strong> <span style="color: #34495e; font-style: italic;">${address}</span></p>
                             <br/>
                                                                                    
-                            <p style="text-align: center; font-size: 16px;">Bạn có thể theo dõi đơn hàng tại <a href="https://shopbandodientu.dokhactu.site" style="color: #3498db; text-decoration: none;">WebShop Khắc Tú</a></p>
+                            <p style="text-align: center; font-size: 16px;">Bạn có thể theo dõi đơn hàng tại <a href="https://shopbandodientu.dokhactu.site" style="color: #3498db; text-decoration: none;">WebShop Quý Dương</a></p>
                         </div>
                     `
             };
@@ -128,7 +128,7 @@ const createOrder1 = async (req, res) => {
         const sendOrderConfirmationEmail = async (toEmail) => {
             // Tạo nội dung email với bảng sản phẩm
             const mailOptions = {
-                from: 'Khắc Tú',
+                from: 'Quý Dương',
                 to: toEmail,
                 subject: '🎉 Xác nhận đơn hàng của bạn! 🎉',
                 html: `
@@ -165,7 +165,7 @@ const createOrder1 = async (req, res) => {
                         <p><strong>🏠 Địa chỉ nhận hàng:</strong> <span style="color: #34495e; font-style: italic;">${address}</span></p>
                         <br/>
                                                                
-                        <p style="text-align: center; font-size: 16px;">📦 Bạn có thể theo dõi đơn hàng tại <a href="https://shopbandodientu.dokhactu.site" style="color: #3498db; text-decoration: none; font-weight: bold;">WebShop Khắc Tú</a></p>
+                        <p style="text-align: center; font-size: 16px;">📦 Bạn có thể theo dõi đơn hàng tại <a href="https://shopbandodientu.dokhactu.site" style="color: #3498db; text-decoration: none; font-weight: bold;">WebShop Quý Dương</a></p>
                     </div>
                 `
             };
@@ -392,7 +392,7 @@ const createOrder = async (req, res) => {
         });
 
         const mailOptions = {
-            from: '"WebShop Khắc Tú" <noreply@dokhactu.site>',
+            from: '"WebShop Quý Dương" <noreply@dokhactu.site>',
             to: email,
             subject: 'Xác nhận đơn hàng thành công',
             html: `<div style="font-family:Arial; max-width:600px; margin:auto; border:1px solid #eee; padding:20px;">
@@ -512,7 +512,7 @@ const createOrderThanhToanVNPay = async (req, res) => {
         const sendOrderConfirmationEmail = async (toEmail) => {
             // Tạo nội dung email với bảng sản phẩm
             const mailOptions = {
-                from: 'Khắc Tú',
+                from: 'Quý Dương',
                 to: toEmail,
                 subject: 'Xác nhận đơn hàng của bạn.',
                 html: `
@@ -549,7 +549,7 @@ const createOrderThanhToanVNPay = async (req, res) => {
                             <p><strong>Địa chỉ nhận hàng:</strong> <span style="color: #34495e; font-style: italic;">${address}</span></p>
                             <br/>
                                                                                    
-                            <p style="text-align: center; font-size: 16px;">Bạn có thể theo dõi đơn hàng tại <a href="https://shopbandodientu.dokhactu.site" style="color: #3498db; text-decoration: none;">WebShop Khắc Tú</a></p>
+                            <p style="text-align: center; font-size: 16px;">Bạn có thể theo dõi đơn hàng tại <a href="https://shopbandodientu.dokhactu.site" style="color: #3498db; text-decoration: none;">WebShop Quý Dương</a></p>
                         </div>
                     `
             };
